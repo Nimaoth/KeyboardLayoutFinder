@@ -1,0 +1,3 @@
+[submodule "submodules/keyboard-genetics"]
+	path = submodules/keyboard-genetics
+	url = https://github.com/Nimaoth/keyboard-genetics.git
