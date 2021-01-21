@@ -4,8 +4,8 @@ import json
 from pathlib import Path
 
 wiki_articles = {
-    'en': ["Earth", "Germany"],
-    'de': ["Erde", "Deutschland"]
+    'en': ["Earth", "Germany", "Toilet", "Food"],
+    'de': ["Erde", "Deutschland", "Toilette", "Lebensmittel"],
 }
 
 def make_request(title, language="en"):

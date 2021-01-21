@@ -104,8 +104,8 @@ def main():
         save_frequencies(letters, "{}/letters.csv".format(path))
         save_frequencies(bigrams, "{}/bigrams.csv".format(path))
 
-        with open("{}/{}.letters".format(path, count), "w") as f:
-            pass
+        with open("{}/count.txt".format(path), "w") as f:
+            f.write(str(count))
     # print(frequencies)
 
 if __name__ == "__main__":
